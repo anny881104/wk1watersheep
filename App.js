@@ -23,7 +23,7 @@ const App= function App() {
       <Text style={styles.w1}>WHO</Text>
       <Text style={styles.w2}>ARE</Text>
       <Text style={styles.w3}>YOU</Text>
-      <Text style={styles.ask}>Who are you?  :::  water sheep?</Text>
+      <Text style={styles.ask}>UM...  :::  water sheep?</Text>
       
     </View>
   );
