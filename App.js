@@ -11,13 +11,14 @@ const App= function App() {
       <View style={styles.waterSheep}>
         <View style={styles.skin}></View>
       </View>
+
       <View style={styles.hair}></View>
       <View style={styles.leye}></View>
       <View style={styles.reye}></View>
       <View style={styles.bl}></View>
       <View style={styles.br}></View>
-      <View style={styles.mouth1}></View>
-      <View style={styles.mouth2}></View>
+      <View style={styles.m1}></View>
+      <View style={styles.m2}></View>
 
       <Text style={styles.w1}>WHO</Text>
       <Text style={styles.w2}>ARE</Text>
@@ -104,14 +105,14 @@ const styles = StyleSheet.create({
     marginBottom:50,
     marginLeft:105,
   },
-  mouth1:{
+  m1:{
     backgroundColor: '#F596AA',
     width:25,
     height:12,
     marginTop:-40,
     marginLeft:67,
   },
-  mouth2:{
+  m2:{
     backgroundColor: '#EB7A77',
     width:25,
     height:12,
@@ -149,4 +150,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default App;//
